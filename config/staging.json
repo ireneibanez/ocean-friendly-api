@@ -1,0 +1,8 @@
+{
+    "logger": {
+        "name": "api-staging",
+        "level": "debug",
+        "toFile": false,
+        "dirLogFile": null
+    }
+}

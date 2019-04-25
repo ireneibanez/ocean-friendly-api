@@ -1,0 +1,8 @@
+{
+    "auth": {
+        "publicUrl": "SSO_PUBLIC_URL",
+        "jwtSecret": "SSO_JWT_SECRET",
+        "authorizedApplications": "SSO_AUTORIZED_APPS"
+    }
+
+}

@@ -1,0 +1,8 @@
+{
+  "logger": {
+    "name": "api-test",
+    "level": "debug",
+    "toFile": false,
+    "dirLogFile": null
+  }
+}

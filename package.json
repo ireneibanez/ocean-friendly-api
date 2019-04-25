@@ -1,0 +1,46 @@
+{
+  "name": "clockmein-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_PATH=app/src node app/index.js",
+    "dev": "NODE_PATH=app/src nodemon --config nodemon.json | bunyan"
+  },
+  "keywords": [],
+  "author": "raul.requero@boream.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.5",
+    "bunyan": "^1.8.12",
+    "config": "^3.0.1",
+    "dotenv": "^7.0.0",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "kcors": "^2.2.2",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-helmet": "^4.1.0",
+    "koa-joi-validate": "^0.5.1",
+    "koa-logger": "^3.2.0",
+    "koa-mount": "^4.0.0",
+    "koa-passport": "^4.1.1",
+    "koa-router": "^7.4.0",
+    "koa-session-mongo": "^1.1.0",
+    "koa-session-store": "^2.0.0",
+    "mongoose": "^5.4.21",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "sleep": "^6.0.0",
+    "sparkpost": "^2.1.3",
+    "uuid": "^3.3.2"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "logger": {
+    "name": "api-DEV",
+    "level": "debug",
+    "toFile": false,
+    "dirLogFile": null
+  },
+  "sessionKey": "session-key",
+  "auth": {
+    "jwtSecret": "mysecret",
+    "authorizedApplications": "api",
+    "issuer": "api"
+  }
+
+}
