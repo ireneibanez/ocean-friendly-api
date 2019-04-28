@@ -29,8 +29,8 @@ class AuthRouter {
   static async registerUser(ctx) {
     logger.info('Registering user');
     let error = null;
-    if (!ctx.request.body.email  || !ctx.request.body.name ) {
-      error = 'Email, Name are required';
+    if (!ctx.request.body.email ) {
+      error = 'Email are required';
     }
     logger.debug(ctx.request.body);
     if (!error) {
